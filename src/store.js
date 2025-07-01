@@ -102,15 +102,15 @@ function payload() {
   return { type: "account/payLoan" };
 }
 
-store.dispatch(deposit(50090));
-store.dispatch(withdraw(5000));
-console.log(store.getState());
+// store.dispatch(deposit(50090));
+// store.dispatch(withdraw(5000));
+// console.log(store.getState());
 
-store.dispatch(requestLoan(1000, "to buy a cheap car"));
-console.log(store.getState());
+// store.dispatch(requestLoan(1000, "to buy a cheap car"));
+// console.log(store.getState());
 
-store.dispatch(payload());
-console.log(store.getState());
+// store.dispatch(payload());
+// console.log(store.getState());
 
 function createCustomer(fullName, nationalID) {
   return {
