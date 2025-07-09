@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
+
 import App from "./App";
-import store from "./store copy1";
+import store from "./store copy2 copy";
 import { Provider } from "react-redux";
 
 store.dispatch({ type: "account/deposit", payload: 0 });
