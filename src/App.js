@@ -6,6 +6,7 @@ import Customer from "./features/customers/Customer";
 
 function App() {
   const fullName = useSelector((state) => state.customer.fullName);
+  console.log(fullName);
 
   return (
     <div>
